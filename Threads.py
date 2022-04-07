@@ -27,7 +27,7 @@ def carrinho(nome, pessoa):
 
         if(distancia >= 700 and valida == False):
             valida = True
-            print("O macaco ganhador foi: " + First[1])  
+            print("A tartaruga ganhadora foi: " + First[1])  
 
         time.sleep(0.3)
     
@@ -64,16 +64,14 @@ print("set")
 time.sleep(1)
 print("go")
 time.sleep(1)
-#print(Matheus) #<turtle.Turtle object at 0x0000020D3BF97FD0>
-#print(Henry) #<turtle.Turtle object at 0x0000020D3DD15150>
-#print(Diogo) #<turtle.Turtle object at 0x0000020D3DD14850>
-#print(Bruno) #<turtle.Turtle object at 0x0000020D3DD164A0>
 
 def thread():
-    _thread.start_new_thread(carrinho,(Matheus,"Matheus"))
-    _thread.start_new_thread(carrinho,(Henry,"Henry"))
-    _thread.start_new_thread(carrinho,(Diogo, "Diogo") )
-    _thread.start_new_thread(carrinho,(Bruno, "Bruno"))
+    _thread.start_new_thread(carrinho,(Matheus,"Rodolfo"))
+    _thread.start_new_thread(carrinho,(Henry,"Rafael jatoba"))
+    _thread.start_new_thread(carrinho,(Diogo, "Joao vitor lima") )
+    _thread.start_new_thread(carrinho,(Bruno, "Stevens"))
     turtle.done()
 
 thread()
+
+
